@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Crown Hotel</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center h-25">
+    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto ">
+      <a class="mr-5 hover:text-gray-900" href="index.html">HOME</a>
+      <a class="mr-5 hover:text-gray-900" href="about.html">ABOUT</a>
+      <a class="mr-5 hover:text-gray-900" href="room.html">ROOMES</a>
+      <a class="mr-5 hover:text-gray-900" href="facilitis.html">FACILITIES</a>
+      <a class="hover:text-gray-900" href="contect.html">CONTECT</a>
+    </nav>
+    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+       <img src="logo2.jpg" alt="" srcset="" class="h-15 w-15 rounded-xl">
+      <span class="ml-3 text-xl">Royal Crown Hotel</span>
+    </a>
+    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">BOOK
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<section class="bg-blue-600">
+<div class="max-w-7xl mx-auto px-6 py-16 text-center text-white">
+<h1 class="text-4xl md:text-5xl font-bold mb-3">Book Your Stay</h1>
+<p class="text-lg">Reserve your room quickly and easily</p>
+</div>
+</section>
+
+
+
+<section class="max-w-5xl mx-auto px-6 py-16">
+<div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+<form class="grid gap-6 md:grid-cols-2">
+
+
+<div>
+<label class="block mb-2 font-medium">Full Name</label>
+<input type="text" placeholder="John Doe" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" required />
+</div>
+
+
+
+<div>
+<label class="block mb-2 font-medium">Email Address</label>
+<input type="email" placeholder="john@example.com" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" required />
+</div>
+
+
+
+<div>
+<label class="block mb-2 font-medium">Phone Number</label>
+<input type="tel" placeholder="+1 234 567 890" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" required />
+</div>
+
+
+
+<div>
+<label class="block mb-2 font-medium">Room Type</label>
+<select class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500">
+<option>Single Room</option>
+<option>Double Room</option>
+<option>Deluxe Room</option>
+<option>Suite</option>
+</select>
+</div>
+
+
+<div>
+<label class="block mb-2 font-medium">Check-in Date</label>
+<input type="date" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" required />
+</div>
+
+
+
+<div>
+<label class="block mb-2 font-medium">Check-out Date</label>
+<input type="date" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" required />
+</div>
+
+
+
+<div>
+<label class="block mb-2 font-medium">Number of Guests</label>
+<input type="number" min="1" max="10" value="1" class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500" />
+</div>
+
+
+<div class="md:col-span-2">
+<label class="block mb-2 font-medium">Special Requests</label>
+<textarea rows="4" placeholder="Any special requirements..." class="w-full rounded-lg border-gray-300 focus:ring-blue-500 focus:border-blue-500"></textarea>
+</div>
+
+
+
+<div class="md:col-span-2 text-center pt-4">
+<button type="submit" class="bg-blue-600 text-white px-10 py-3 rounded-full font-semibold hover:bg-blue-700 transition">Confirm Booking</button>
+</div>
+
+
+</form>
+</div>
+</section>
+
+</body>
+</html>
